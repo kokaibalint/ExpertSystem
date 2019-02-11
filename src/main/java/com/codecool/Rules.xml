@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Rules>
-    <Rule id="id">
+    <Rule id="id1">
         <Question>???</Question>
         <Answer>
             <Selection value="true">
@@ -12,7 +12,7 @@
         </Answer>
     </Rule>
     ...
-    <Rule id="id">
+    <Rule id="id2">
         <Question>???</Question>
         <Answer>
             <Selection value="true">

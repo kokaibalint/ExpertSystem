@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Facts>
     <Fact id="id">
-        <Description value="name"/>
+        <Description value="Description"/>
         <Evals>
             <Eval id="id1">false</Eval>
             <Eval id="id2">false</Eval>
@@ -13,7 +13,7 @@
     </Fact>
     ...
     <Fact id="id">
-        <Description value="name"/>
+        <Description value="Description"/>
         <Evals>
             <Eval id="id1">true</Eval>
             <Eval id="id2">true</Eval>
