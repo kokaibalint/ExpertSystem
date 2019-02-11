@@ -8,7 +8,9 @@ public class RuleRepository {
 
     }
 
+/*
     public Iterator<Question> getIterator() {
 
     }
+*/
 }

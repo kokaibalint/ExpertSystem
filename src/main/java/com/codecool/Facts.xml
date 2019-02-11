@@ -30,6 +30,7 @@
     ...
     <Fact id="Dog">
         <Description value="Izabelle The Dog"/>
+
         <Evals>
             <Eval id="Size">true</Eval>
             <Eval id="Cost">true</Eval>

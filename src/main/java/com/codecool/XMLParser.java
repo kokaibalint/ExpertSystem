@@ -11,7 +11,7 @@ import java.io.IOException;
 import java.io.InputStream;
 
 /*Reads the xml documents */
-public abstract class XMLParser {
+public class XMLParser {
 
     public void loadXmlDocument(String xmlPath) throws ParserConfigurationException, IOException, SAXException {
         DocumentBuilderFactory builderFactory = DocumentBuilderFactory.newInstance();
@@ -33,3 +33,4 @@ public abstract class XMLParser {
 
     }
 }
+
