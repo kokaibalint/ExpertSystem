@@ -24,6 +24,88 @@
         </Answer>
     </Rule>
     ...
-
+    <Rule id="id3">
+        <Question>???</Question>
+        <Answer>
+            <Selection value="true">
+                <SingleValue value="option1"/>
+            </Selection>
+            <Selection value="false">
+                <SingleValue value="option2"/>
+            </Selection>
+        </Answer>
+    </Rule>
+    ...
+    <Rule id="id4">
+        <Question>???</Question>
+        <Answer>
+            <Selection value="true">
+                <SingleValue value="option1"/>
+            </Selection>
+            <Selection value="false">
+                <SingleValue value="option2"/>
+            </Selection>
+        </Answer>
+    </Rule>
+    ...
+    <Rule id="id1">
+        <Question>???</Question>
+        <Answer>
+            <Selection value="true">
+                <SingleValue value="option1"/>
+            </Selection>
+            <Selection value="false">
+                <SingleValue value="option2"/>
+            </Selection>
+        </Answer>
+    </Rule>
+    ...
+    <Rule id="id1">
+        <Question>???</Question>
+        <Answer>
+            <Selection value="true">
+                <SingleValue value="option1"/>
+            </Selection>
+            <Selection value="false">
+                <SingleValue value="option2"/>
+            </Selection>
+        </Answer>
+    </Rule>
+    ...
+    <Rule id="id1">
+        <Question>???</Question>
+        <Answer>
+            <Selection value="true">
+                <SingleValue value="option1"/>
+            </Selection>
+            <Selection value="false">
+                <SingleValue value="option2"/>
+            </Selection>
+        </Answer>
+    </Rule>
+    ...
+    <Rule id="id1">
+        <Question>???</Question>
+        <Answer>
+            <Selection value="true">
+                <SingleValue value="option1"/>
+            </Selection>
+            <Selection value="false">
+                <SingleValue value="option2"/>
+            </Selection>
+        </Answer>
+    </Rule>
+    ...
+    <Rule id="id1">
+        <Question>???</Question>
+        <Answer>
+            <Selection value="true">
+                <SingleValue value="option1"/>
+            </Selection>
+            <Selection value="false">
+                <SingleValue value="option2"/>
+            </Selection>
+        </Answer>
+    </Rule>
     ...
 </Rules>
