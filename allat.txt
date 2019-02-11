@@ -1,0 +1,165 @@
+// hal, kutya,
+ hörcsög, teknős,
+ cica, madárka (papagáj),
+ hortobágyi szürkemarha,
+ kacsa, ló, csirke
+ egérke, vietnámi törpedisznó,
+ platypus, kaméleon,
+
+
+
+
+----Charles the fish
+-small
+-cheap
+-herbivore
+-gardenless
+-have allergie
+-young
+-male
+-not teachable
+-not livestock
+
+----Izabelle the dog
+-big
+-costly
+-omnivore
+-have garden
+-does not have allergie
+-young
+-female
+-teachable
+-not livestock
+
+----Zeus the hamster
+-small
+-cheap
+-herbivore
+-gardenless
+-have allergie
+-young
+-male
+-teachable
+-not livestock
+
+----Hector the turtle
+-small
+-cheap
+-carnivore
+-gardenless
+-have allergie
+-old
+-male
+-not teachable
+-not livestock
+
+----Mimi the cat
+-small
+-costly
+-carnivore
+-gardenless
+-does not have allergie
+-young
+-female
+-not teachable
+-not livestock
+
+----Gustav Ze parrot
+-small
+-costly
+-omnivore
+-gardenless
+-have allergie
+-young
+-male
+-teachable
+-not livestock
+
+----Tündike the hungarian grey cattle
+-big
+-costly
+-herbivore
+-have garden
+-does not have allergie
+-old
+-female
+-not teachable
+-livestock
+
+----Michael the duck
+-small
+-cheap
+-herbivore
+-have garden
+-have allergie
+-young
+-male
+-not teachable
+-livestock
+
+----Vanilla the horse
+-big
+-costly
+-herbivore
+-have garden 
+-does not have allergie
+-old
+-female
+-teachable
+-not livestock
+
+----Hannibal the chicken
+-small
+-costly
+-omnivore
+-have garden
+-have allergie
+-young
+-male
+-teachable
+-livestock
+
+----Donald the mouse
+-small
+-cheap
+-omnivore
+-does not have garden
+-does not have allergie
+-young
+-male
+-not teachable
+-not livestock
+
+----Gabrielle the miniature pig
+-small
+-costly
+-omnivore
+-have garden
+-does not have allergie
+-young
+-female
+-teachable
+-not livestock
+
+----Perry the platypus
+-small
+-costly
+-herbivore
+-have garden
+-have allergie
+-young
+-male
+-not teachable
+-not livestock
+
+----Suzie the Chameleon
+-small
+-costly
+-carnivore
+-does not have garden
+-have allergie
+-old
+-not teachable
+-not livestock
+
+
