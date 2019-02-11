@@ -11,9 +11,9 @@ import java.io.IOException;
 import java.io.InputStream;
 
 /*Reads the xml documents */
-public class XMLParser {
+public abstract class XMLParser {
 
-    public void loadXmlDocument(String xmlPath) throws ParserConfigurationException, IOException, SAXException {
+    public Document loadXmlDocument(String xmlPath) throws ParserConfigurationException, IOException, SAXException {
         DocumentBuilderFactory builderFactory = DocumentBuilderFactory.newInstance();
         DocumentBuilder builder = null;
         try {
@@ -24,12 +24,13 @@ public class XMLParser {
 
         try {
             Document document = builder.parse(new FileInputStream(xmlPath));
+            return document;
         } catch (SAXException e) {
             e.printStackTrace();
         } catch (IOException e) {
             e.printStackTrace();
         }
-
+        return null;
 
     }
 }

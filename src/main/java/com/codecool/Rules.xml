@@ -48,7 +48,7 @@
         </Answer>
     </Rule>
     ...
-    <Rule id="id1">
+    <Rule id="id5">
         <Question>???</Question>
         <Answer>
             <Selection value="true">
@@ -60,7 +60,7 @@
         </Answer>
     </Rule>
     ...
-    <Rule id="id1">
+    <Rule id="id6">
         <Question>???</Question>
         <Answer>
             <Selection value="true">
@@ -72,7 +72,7 @@
         </Answer>
     </Rule>
     ...
-    <Rule id="id1">
+    <Rule id="id7">
         <Question>???</Question>
         <Answer>
             <Selection value="true">
@@ -84,7 +84,7 @@
         </Answer>
     </Rule>
     ...
-    <Rule id="id1">
+    <Rule id="id8">
         <Question>???</Question>
         <Answer>
             <Selection value="true">
@@ -96,7 +96,7 @@
         </Answer>
     </Rule>
     ...
-    <Rule id="id1">
+    <Rule id="id9">
         <Question>???</Question>
         <Answer>
             <Selection value="true">
