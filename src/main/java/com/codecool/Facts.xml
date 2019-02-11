@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Facts>
+    <Fact id="id">
+        <Description value="name"/>
+        <Evals>
+            <Eval id="id1">false</Eval>
+            <Eval id="id2">false</Eval>
+            <Eval id="id3">false</Eval>
+            <Eval id="id4">false</Eval>
+            <Eval id="id5">false</Eval>
+            <Eval id="id6">false</Eval>
+        </Evals>
+    </Fact>
+    ...
+    <Fact id="id">
+        <Description value="name"/>
+        <Evals>
+            <Eval id="id1">true</Eval>
+            <Eval id="id2">true</Eval>
+            <Eval id="id3">true</Eval>
+            <Eval id="id4">true</Eval>
+            <Eval id="id5">true</Eval>
+            <Eval id="id6">true</Eval>
+        </Evals>
+    </Fact>
+    ...
+
+    ...
+</Facts>

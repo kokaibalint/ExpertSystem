@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Rules>
+    <Rule id="id">
+        <Question>???</Question>
+        <Answer>
+            <Selection value="true">
+                <SingleValue value="option1"/>
+            </Selection>
+            <Selection value="false">
+                <SingleValue value="option2"/>
+            </Selection>
+        </Answer>
+    </Rule>
+    ...
+    <Rule id="id">
+        <Question>???</Question>
+        <Answer>
+            <Selection value="true">
+                <SingleValue value="option1"/>
+            </Selection>
+            <Selection value="false">
+                <SingleValue value="option2"/>
+            </Selection>
+        </Answer>
+    </Rule>
+    ...
+
+    ...
+</Rules>
