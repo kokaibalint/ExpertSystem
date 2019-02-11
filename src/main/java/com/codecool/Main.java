@@ -15,8 +15,8 @@ public class Main {
         Main main = new Main();
         System.out.println(main.getWelcomeString());
 
-        XMLParser parser = new XMLParser();
-        parser.loadXmlDocument("src/main/java/com/codecool/Rules.xml");
+        RuleParser parser = new RuleParser();
+        parser.getRuleRepository();
 
     }
 }
