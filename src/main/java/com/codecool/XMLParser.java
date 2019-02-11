@@ -23,8 +23,7 @@ public abstract class XMLParser {
         }
 
         try {
-            Document document = builder.parse(
-                    new FileInputStream(xmlPath));
+            Document document = builder.parse(new FileInputStream(xmlPath));
         } catch (SAXException e) {
             e.printStackTrace();
         } catch (IOException e) {
