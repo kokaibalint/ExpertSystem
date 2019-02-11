@@ -1,109 +1,121 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Rules>
-    <Rule id="id1">
-        <Question>???</Question>
+    <Rule id="size">
+        <Question>"Do you want a big animal?"</Question>
         <Answer>
             <Selection value="true">
-                <SingleValue value="option1"/>
+                <SingleValue value="yes"/>
             </Selection>
             <Selection value="false">
-                <SingleValue value="option2"/>
+                <SingleValue value="no"/>
             </Selection>
         </Answer>
     </Rule>
     ...
-    <Rule id="id2">
-        <Question>???</Question>
+    <Rule id="price">
+        <Question>"Do you have a lot of money?"</Question>
         <Answer>
             <Selection value="true">
-                <SingleValue value="option1"/>
+                <SingleValue value="expensive"/>
             </Selection>
             <Selection value="false">
-                <SingleValue value="option2"/>
+                <SingleValue value="cheap"/>
             </Selection>
         </Answer>
     </Rule>
     ...
-    <Rule id="id3">
-        <Question>???</Question>
+    <Rule id="carnivorous">
+        <Question>"Do you want it to be carnivorous?"</Question>
         <Answer>
             <Selection value="true">
-                <SingleValue value="option1"/>
+                <SingleValue value="yes"/>
             </Selection>
             <Selection value="false">
-                <SingleValue value="option2"/>
+                <SingleValue value="no"/>
             </Selection>
         </Answer>
     </Rule>
     ...
-    <Rule id="id4">
-        <Question>???</Question>
+    <Rule id="herbivorous">
+        <Question>"Do you want it to be herbivorous?"</Question>
         <Answer>
             <Selection value="true">
-                <SingleValue value="option1"/>
+                <SingleValue value="yes"/>
             </Selection>
             <Selection value="false">
-                <SingleValue value="option2"/>
+                <SingleValue value="no"/>
             </Selection>
         </Answer>
     </Rule>
     ...
-    <Rule id="id5">
-        <Question>???</Question>
+    <Rule id="flat">
+        <Question>"Do you live in a flat?"</Question>
         <Answer>
             <Selection value="true">
-                <SingleValue value="option1"/>
+                <SingleValue value="no"/>
             </Selection>
             <Selection value="false">
-                <SingleValue value="option2"/>
+                <SingleValue value="yes"/>
             </Selection>
         </Answer>
     </Rule>
     ...
-    <Rule id="id6">
-        <Question>???</Question>
+    <Rule id="lifespan">
+        <Question>"Do you want it to live a long life?"</Question>
         <Answer>
             <Selection value="true">
-                <SingleValue value="option1"/>
+                <SingleValue value="long"/>
             </Selection>
             <Selection value="false">
-                <SingleValue value="option2"/>
+                <SingleValue value="short"/>
             </Selection>
         </Answer>
     </Rule>
     ...
-    <Rule id="id7">
-        <Question>???</Question>
+    <Rule id="gender">
+        <Question>"Do you want a male?"</Question>
         <Answer>
             <Selection value="true">
-                <SingleValue value="option1"/>
+                <SingleValue value="male"/>
             </Selection>
             <Selection value="false">
-                <SingleValue value="option2"/>
+                <SingleValue value="female"/>
             </Selection>
         </Answer>
     </Rule>
     ...
-    <Rule id="id8">
-        <Question>???</Question>
+    <Rule id="smart">
+        <Question>"Do you want one that can be taught?"</Question>
         <Answer>
             <Selection value="true">
-                <SingleValue value="option1"/>
+                <SingleValue value="yes"/>
             </Selection>
             <Selection value="false">
-                <SingleValue value="option2"/>
+                <SingleValue value="no"/>
             </Selection>
         </Answer>
     </Rule>
     ...
-    <Rule id="id9">
-        <Question>???</Question>
+    <Rule id="caged">
+        <Question>"Are you fine with a cage/aquarium/terrarium?"</Question>
         <Answer>
             <Selection value="true">
-                <SingleValue value="option1"/>
+                <SingleValue value="yes"/>
             </Selection>
             <Selection value="false">
-                <SingleValue value="option2"/>
+                <SingleValue value="no"/>
+            </Selection>
+        </Answer>
+    </Rule>
+    ...
+    <Rule id="livestock">
+        <Question>"Do you want to use it as livestock?"</Question>
+        <Answer>
+            <Selection value="true">
+                <SingleValue value="yes"/>
+            </Selection>
+            <Selection value="false">
+                <SingleValue value="no"/>
             </Selection>
         </Answer>
     </Rule>
