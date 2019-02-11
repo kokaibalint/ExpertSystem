@@ -10,11 +10,15 @@ public class ESProvider {
 
     }
 
+/*
     public boolean getAnswerByQuestion(String questionid) {
 
     }
+*/
 
+/*
     public String evaluate() {
 
     }
+*/
 }

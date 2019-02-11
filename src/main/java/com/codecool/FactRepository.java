@@ -6,7 +6,9 @@ public class FactRepository {
 
     }
 
+/*
     public Iterator<Fact> getIterator() {
 
     }
+*/
 }
