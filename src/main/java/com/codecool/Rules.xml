@@ -24,6 +24,18 @@
         </Answer>
     </Rule>
     ...
+    <Rule id="omnivorous">
+        <Question>"Do you want it to be omnivorous?"</Question>
+        <Answer>
+            <Selection value="true">
+                <SingleValue value="yes"/>
+            </Selection>
+            <Selection value="false">
+                <SingleValue value="no"/>
+            </Selection>
+        </Answer>
+    </Rule>
+    ...
     <Rule id="carnivorous">
         <Question>"Do you want it to be carnivorous?"</Question>
         <Answer>
