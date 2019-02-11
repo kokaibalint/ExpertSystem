@@ -1,4 +1,4 @@
-package main.java.com.codecool;
+package com.codecool;
 
 import org.w3c.dom.Document;
 import org.xml.sax.SAXException;

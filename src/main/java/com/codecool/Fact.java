@@ -1,4 +1,4 @@
-package main.java.com.codecool;
+package com.codecool;
 
 public class Fact {
     public Fact(String id, String description) {
