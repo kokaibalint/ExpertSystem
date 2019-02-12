@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Rules>
     <Rule id="Size">
-        <Question>"Do you want a big animal?"</Question>
+        <Question>"Are you fine with bigger animals?"</Question>
         <Answer>
             <Selection value="true">
                 <SingleValue value="yes"/>
@@ -13,7 +13,7 @@
     </Rule>
     ...
     <Rule id="Expensive">
-        <Question>"Do want to spend a lot of money?"</Question>
+        <Question>"Are you willing to spend a lot of money?"</Question>
         <Answer>
             <Selection value="true">
                 <SingleValue value="expensive"/>
@@ -49,7 +49,7 @@
     </Rule>
     ...
     <Rule id="Omnivore">
-        <Question>"Do you want it to be omnivorous?"</Question>
+        <Question>"Do you want it to be able to eat anything?"</Question>
         <Answer>
             <Selection value="true">
                 <SingleValue value="yes"/>
@@ -61,7 +61,7 @@
     </Rule>
     ...
         <Rule id="Garden">
-        <Question>"Do you have a garden?"</Question>
+        <Question>"Do you have an available garden?"</Question>
         <Answer>
             <Selection value="true">
                 <SingleValue value="yes"/>
@@ -97,7 +97,7 @@
     </Rule>
     ...
     <Rule id="Gender">
-        <Question>"Do you want a male?"</Question>
+        <Question>"Do you want it to be a male?"</Question>
         <Answer>
             <Selection value="true">
                 <SingleValue value="yes"/>
@@ -109,7 +109,7 @@
     </Rule>
     ...
     <Rule id="Teachable">
-        <Question>"Do you want one that can be taught?"</Question>
+        <Question>"Are you interested in animals that can be taught?"</Question>
         <Answer>
             <Selection value="true">
                 <SingleValue value="yes"/>
@@ -120,8 +120,8 @@
         </Answer>
     </Rule>
     ...
-    <Rule id="Caged">
-        <Question>"Are you fine with cages, aquariums, terrariums?"</Question>
+    <Rule id="Containment">
+        <Question>"Are you fine with animals that require a cage, aquarium or a terrarium?"</Question>
         <Answer>
             <Selection value="true">
                 <SingleValue value="yes"/>
