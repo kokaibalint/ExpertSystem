@@ -15,8 +15,11 @@ public class Main {
         Main main = new Main();
         System.out.println(main.getWelcomeString());
 
-        RuleParser parser = new RuleParser();
-        parser.getRuleRepository();
+        RuleParser rParser = new RuleParser();
+        rParser.getRuleRepository();
+
+        //FactParser fParser = new FactParser();
+        //fParser.getFactRepository();
 
     }
 }

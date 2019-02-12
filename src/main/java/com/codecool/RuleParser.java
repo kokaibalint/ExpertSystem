@@ -40,7 +40,7 @@ public class RuleParser extends XMLParser {
                     Element eElement = (Element) nNode;
                     System.out.println("\nRule id: " + eElement.getAttribute("id"));
                     System.out.println("Question: " + eElement.getElementsByTagName("Question").item(0).getTextContent());
-                    System.out.println("If " + eElement.getAttribute("value"));
+                    System.out.println("If " + eElement.getAttribute("value=\"true\""));
 
                 }
             }
