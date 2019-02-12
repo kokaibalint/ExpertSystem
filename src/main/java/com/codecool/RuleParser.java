@@ -23,7 +23,6 @@ public class RuleParser extends XMLParser {
     }
 */
 
-
     public RuleRepository getRuleRepository() throws ParserConfigurationException, IOException, SAXException {
         Document doc = loadXmlDocument("src/main/java/com/codecool/Rules.xml");
         try {

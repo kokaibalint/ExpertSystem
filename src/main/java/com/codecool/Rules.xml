@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Rules>
-    <Rule id="size">
+    <Rule id="Size">
         <Question>"Do you want a big animal?"</Question>
         <Answer>
             <Selection value="true">
@@ -12,8 +12,8 @@
         </Answer>
     </Rule>
     ...
-    <Rule id="price">
-        <Question>"Do you have a lot of money?"</Question>
+    <Rule id="Expensive">
+        <Question>"Do want to spend a lot of money?"</Question>
         <Answer>
             <Selection value="true">
                 <SingleValue value="expensive"/>
@@ -24,8 +24,8 @@
         </Answer>
     </Rule>
     ...
-    <Rule id="carnivorous">
-        <Question>"Do you want it to be carnivorous?"</Question>
+    <Rule id="Carnivore">
+        <Question>"Do you want it to be a predator?"</Question>
         <Answer>
             <Selection value="true">
                 <SingleValue value="yes"/>
@@ -36,8 +36,8 @@
         </Answer>
     </Rule>
     ...
-    <Rule id="herbivorous">
-        <Question>"Do you want it to be herbivorous?"</Question>
+    <Rule id="Herbivore">
+        <Question>"Do you want it to be vegetarian?"</Question>
         <Answer>
             <Selection value="true">
                 <SingleValue value="yes"/>
@@ -48,43 +48,67 @@
         </Answer>
     </Rule>
     ...
-    <Rule id="flat">
-        <Question>"Do you live in a flat?"</Question>
+    <Rule id="Omnivore">
+        <Question>"Do you want it to be omnivorous?"</Question>
         <Answer>
             <Selection value="true">
-                <SingleValue value="no"/>
+                <SingleValue value="yes"/>
             </Selection>
             <Selection value="false">
-                <SingleValue value="yes"/>
+                <SingleValue value="no"/>
             </Selection>
         </Answer>
     </Rule>
     ...
-    <Rule id="lifespan">
+        <Rule id="Garden">
+        <Question>"Do you have a garden?"</Question>
+        <Answer>
+            <Selection value="true">
+                <SingleValue value="yes"/>
+            </Selection>
+            <Selection value="false">
+                <SingleValue value="no"/>
+            </Selection>
+        </Answer>
+    </Rule>
+    ...
+    <Rule id="Allergy">
+        <Question>"Are you allergic to fur?"</Question>
+        <Answer>
+            <Selection value="true">
+                <SingleValue value="yes"/>
+            </Selection>
+            <Selection value="false">
+                <SingleValue value="no"/>
+            </Selection>
+        </Answer>
+    </Rule>
+    ...
+    <Rule id="Lifespan">
         <Question>"Do you want it to live a long life?"</Question>
         <Answer>
             <Selection value="true">
-                <SingleValue value="long"/>
+                <SingleValue value="yes"/>
             </Selection>
             <Selection value="false">
-                <SingleValue value="short"/>
+                <SingleValue value="no"/>
             </Selection>
         </Answer>
     </Rule>
     ...
-    <Rule id="gender">
+    <Rule id="Gender">
         <Question>"Do you want a male?"</Question>
         <Answer>
             <Selection value="true">
-                <SingleValue value="male"/>
+                <SingleValue value="yes"/>
             </Selection>
             <Selection value="false">
-                <SingleValue value="female"/>
+                <SingleValue value="no"/>
             </Selection>
         </Answer>
     </Rule>
     ...
-    <Rule id="smart">
+    <Rule id="Teachable">
         <Question>"Do you want one that can be taught?"</Question>
         <Answer>
             <Selection value="true">
@@ -96,8 +120,8 @@
         </Answer>
     </Rule>
     ...
-    <Rule id="caged">
-        <Question>"Are you fine with a cage/aquarium/terrarium?"</Question>
+    <Rule id="Caged">
+        <Question>"Are you fine with cages, aquariums, terrariums?"</Question>
         <Answer>
             <Selection value="true">
                 <SingleValue value="yes"/>
@@ -108,8 +132,8 @@
         </Answer>
     </Rule>
     ...
-    <Rule id="livestock">
-        <Question>"Do you want to use it as livestock?"</Question>
+    <Rule id="Livestock">
+        <Question>"Are you interested in livestock animals?"</Question>
         <Answer>
             <Selection value="true">
                 <SingleValue value="yes"/>

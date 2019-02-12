@@ -23,7 +23,6 @@ public class FactParser extends XMLParser {
     }
 */
 
-
     public FactRepository getFactRepository() throws ParserConfigurationException, IOException, SAXException {
         Document doc = loadXmlDocument("src/main/java/com/codecool/Facts.xml");
 
