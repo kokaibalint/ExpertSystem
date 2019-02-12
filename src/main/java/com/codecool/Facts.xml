@@ -1,29 +1,253 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Facts>
-    <Fact id="id">
-        <Description value="Description"/>
+<!--    Size T = Big         ; F = Small
+    Cost T = Costly      ; F = Cheap
+    Carnivore T = Yes    ; F = No
+    Herbivore T = Yes    ; F = No
+    Omnivore T = Yes     ; F = no
+    Garden T = available ; F = Not Available
+    Allergie T = Have    ; F = Dont Have
+    Age T = Young        ; F = Old
+    Sex T = Male         ; F = Female
+    Teachable T = Yes    ; F = No
+    Livestock T = Yes    ; F = No-->
+    <Fact id="Fish">
+        <Description value="Charles The Fish"/>
         <Evals>
-            <Eval id="id1">false</Eval>
-            <Eval id="id2">false</Eval>
-            <Eval id="id3">false</Eval>
-            <Eval id="id4">false</Eval>
-            <Eval id="id5">false</Eval>
-            <Eval id="id6">false</Eval>
+            <Eval id="Size">false</Eval>
+            <Eval id="Cost">false</Eval>
+            <Eval id="Carnivore">false</Eval>
+            <Eval id="Herbivore">true</Eval>
+            <Eval id="Omnivore">false</Eval>
+            <Eval id="Garden">false</Eval>
+            <Eval id="Allergie">true</Eval>
+            <Eval id="Age">true</Eval>
+            <Eval id="Sex">true</Eval>
+            <Eval id="Teachable">false</Eval>
+            <Eval id="Livestock">false</Eval>
         </Evals>
     </Fact>
     ...
-    <Fact id="id">
-        <Description value="Description"/>
-        <Evals>
-            <Eval id="id1">true</Eval>
-            <Eval id="id2">true</Eval>
-            <Eval id="id3">true</Eval>
-            <Eval id="id4">true</Eval>
-            <Eval id="id5">true</Eval>
-            <Eval id="id6">true</Eval>
-        </Evals>
-    </Fact>
-    ...
+    <Fact id="Dog">
+        <Description value="Izabelle The Dog"/>
 
+        <Evals>
+            <Eval id="Size">true</Eval>
+            <Eval id="Cost">true</Eval>
+            <Eval id="Carnivore">false</Eval>
+            <Eval id="Herbivore">false</Eval>
+            <Eval id="Omnivore">true</Eval>
+            <Eval id="Garden">true</Eval>
+            <Eval id="Allergie">false</Eval>
+            <Eval id="Age">true</Eval>
+            <Eval id="Sex">false</Eval>
+            <Eval id="Teachable">true</Eval>
+            <Eval id="Livestock">false</Eval>>
+        </Evals>
+    </Fact>
+    ...
+    <Fact id="Hamster">
+        <Description value="Zeus The Hamster"/>
+        <Evals>
+            <Eval id="Size">false</Eval>
+            <Eval id="Cost">false</Eval>
+            <Eval id="Carnivore">false</Eval>
+            <Eval id="Herbivore">true</Eval>
+            <Eval id="Omnivore">false</Eval>
+            <Eval id="Garden">false</Eval>
+            <Eval id="Allergie">true</Eval>
+            <Eval id="Age">true</Eval>
+            <Eval id="Sex">true</Eval>
+            <Eval id="Teachable">true</Eval>
+            <Eval id="Livestock">false</Eval>
+        </Evals>
+    </Fact>
+    ...
+    <Fact id="Turtle">
+        <Description value="Hector The Turtle"/>
+        <Evals>
+            <Eval id="Size">false</Eval>
+            <Eval id="Cost">false</Eval>
+            <Eval id="Carnivore">true</Eval>
+            <Eval id="Herbivore">false</Eval>
+            <Eval id="Omnivore">false</Eval>
+            <Eval id="Garden">false</Eval>
+            <Eval id="Allergie">true</Eval>
+            <Eval id="Age">false</Eval>
+            <Eval id="Sex">true</Eval>
+            <Eval id="Teachable">false</Eval>
+            <Eval id="Livestock">false</Eval>
+        </Evals>
+    </Fact>
+    ...
+    <Fact id="Cat">
+        <Description value="Mimi The Cat"/>
+        <Evals>
+            <Eval id="Size">false</Eval>
+            <Eval id="Cost">true</Eval>
+            <Eval id="Carnivore">true</Eval>
+            <Eval id="Herbivore">false</Eval>
+            <Eval id="Omnivore">false</Eval>
+            <Eval id="Garden">false</Eval>
+            <Eval id="Allergie">false</Eval>
+            <Eval id="Age">true</Eval>
+            <Eval id="Sex">false</Eval>
+            <Eval id="Teachable">false</Eval>
+            <Eval id="Livestock">false</Eval>
+        </Evals>
+    </Fact>
+    ...
+    <Fact id="Parrot">
+        <Description value="Gustav Ze Parrot"/>
+        <Evals>
+            <Eval id="Size">false</Eval>
+            <Eval id="Cost">true</Eval>
+            <Eval id="Carnivore">false</Eval>
+            <Eval id="Herbivore">false</Eval>
+            <Eval id="Omnivore">true</Eval>
+            <Eval id="Garden">false</Eval>
+            <Eval id="Allergie">true</Eval>
+            <Eval id="Age">true</Eval>
+            <Eval id="Sex">true</Eval>
+            <Eval id="Teachable">true</Eval>
+            <Eval id="Livestock">false</Eval>
+        </Evals>
+    </Fact>
+    ...
+    <Fact id="Hungarian Grey Cattle">
+        <Description value="Tündike The Hungarian Grey Cattle"/>
+        <Evals>
+            <Eval id="Size">true</Eval>
+            <Eval id="Cost">true</Eval>
+            <Eval id="Carnivore">false</Eval>
+            <Eval id="Herbivore">true</Eval>
+            <Eval id="Omnivore">false</Eval>
+            <Eval id="Garden">true</Eval>
+            <Eval id="Allergie">false</Eval>
+            <Eval id="Age">false</Eval>
+            <Eval id="Sex">false</Eval>
+            <Eval id="Teachable">false</Eval>
+            <Eval id="Livestock">true</Eval>
+        </Evals>
+    </Fact>
+    ...
+    <Fact id="Duck">
+        <Description value="Michael The Duck"/>
+        <Evals>
+            <Eval id="Size">false</Eval>
+            <Eval id="Cost">false</Eval>
+            <Eval id="Carnivore">false</Eval>
+            <Eval id="Herbivore">true</Eval>
+            <Eval id="Omnivore">false</Eval>
+            <Eval id="Garden">true</Eval>
+            <Eval id="Allergie">true</Eval>
+            <Eval id="Age">true</Eval>
+            <Eval id="Sex">true</Eval>
+            <Eval id="Teachable">false</Eval>
+            <Eval id="Livestock">true</Eval>
+        </Evals>
+    </Fact>
+    ...
+    <Fact id="Horse">
+        <Description value="Vanilla The Horse"/>
+        <Evals>
+            <Eval id="Size">true</Eval>
+            <Eval id="Cost">true</Eval>
+            <Eval id="Carnivore">false</Eval>
+            <Eval id="Herbivore">true</Eval>
+            <Eval id="Omnivore">false</Eval>
+            <Eval id="Garden">true</Eval>
+            <Eval id="Allergie">false</Eval>
+            <Eval id="Age">false</Eval>
+            <Eval id="Sex">false</Eval>
+            <Eval id="Teachable">true</Eval>
+            <Eval id="Livestock">false</Eval>
+        </Evals>
+    </Fact>
+    ...
+    <Fact id="Chicken">
+        <Description value="Hannibal The Chicken"/>
+        <Evals>
+            <Eval id="Size">false</Eval>
+            <Eval id="Cost">true</Eval>
+            <Eval id="Carnivore">false</Eval>
+            <Eval id="Herbivore">false</Eval>
+            <Eval id="Omnivore">true</Eval>
+            <Eval id="Garden">true</Eval>
+            <Eval id="Allergie">true</Eval>
+            <Eval id="Age">true</Eval>
+            <Eval id="Sex">true</Eval>
+            <Eval id="Teachable">true</Eval>
+            <Eval id="Livestock">true</Eval>
+        </Evals>
+    </Fact>
+    ...
+    <Fact id="Mouse">
+        <Description value="Donald The Mouse"/>
+        <Evals>
+            <Eval id="Size">false</Eval>
+            <Eval id="Cost">false</Eval>
+            <Eval id="Carnivore">false</Eval>
+            <Eval id="Herbivore">false</Eval>
+            <Eval id="Omnivore">true</Eval>
+            <Eval id="Garden">false</Eval>
+            <Eval id="Allergie">false</Eval>
+            <Eval id="Age">true</Eval>
+            <Eval id="Sex">true</Eval>
+            <Eval id="Teachable">false</Eval>
+            <Eval id="Livestock">false</Eval>
+        </Evals>
+    </Fact>
+    ...
+    <Fact id="Vietnamese Miniature Pig">
+        <Description value="Gabrielle The Miniature Pig"/>
+        <Evals>
+            <Eval id="Size">false</Eval>
+            <Eval id="Cost">true</Eval>
+            <Eval id="Carnivore">false</Eval>
+            <Eval id="Herbivore">false</Eval>
+            <Eval id="Omnivore">true</Eval>
+            <Eval id="Garden">true</Eval>
+            <Eval id="Allergie">false</Eval>
+            <Eval id="Age">falstrue</Eval>
+            <Eval id="Sex">false</Eval>
+            <Eval id="Teachable">true</Eval>
+            <Eval id="Livestock">false</Eval>
+        </Evals>
+    </Fact>
+    ...
+    <Fact id="Platypus">
+        <Description value="Perry The Platypus"/>
+        <Evals>
+            <Eval id="Size">false</Eval>
+            <Eval id="Cost">true</Eval>
+            <Eval id="Carnivore">false</Eval>
+            <Eval id="Herbivore">true</Eval>
+            <Eval id="Omnivore">false</Eval>
+            <Eval id="Garden">true</Eval>
+            <Eval id="Allergie">true</Eval>
+            <Eval id="Age">true</Eval>
+            <Eval id="Sex">true</Eval>
+            <Eval id="Teachable">false</Eval>
+            <Eval id="Livestock">false</Eval>
+        </Evals>
+    </Fact>
+    ...
+    <Fact id="Chameleon">
+        <Description value="Suzie The Chameleon"/>
+        <Evals>
+            <Eval id="Size">false</Eval>
+            <Eval id="Cost">true</Eval>
+            <Eval id="Carnivore">true</Eval>
+            <Eval id="Herbivore">false</Eval>
+            <Eval id="Omnivore">false</Eval>
+            <Eval id="Garden">false</Eval>
+            <Eval id="Allergie">true</Eval>
+            <Eval id="Age">false</Eval>
+            <Eval id="Sex">false</Eval>
+            <Eval id="Teachable">false</Eval>
+            <Eval id="Livestock">false</Eval>
+        </Evals>
+    </Fact>
     ...
 </Facts>
