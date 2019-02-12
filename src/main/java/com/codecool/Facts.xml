@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Facts>
-<!--    Size T = Big         ; F = Small
-    Expensive T = Expensively      ; F = Cheap
-    Carnivore T = Yes    ; F = No
-    Herbivore T = Yes    ; F = No
-    Omnivore T = Yes     ; F = no
-    Garden T = available ; F = Not Available
-    Allergy T = Have    ; F = Dont Have
-    Lifespan T = Young        ; F = Old
-    Gender T = Male         ; F = Female
-    Teachable T = Yes    ; F = No
-    Livestock T = Yes    ; F = No-->
+<!--    Size T = Big       ; F = Small
+    Expensive T = Yes      ; F = Cheap
+    Carnivore T = Yes      ; F = No
+    Herbivore T = Yes      ; F = No
+    Omnivore T = Yes       ; F = no
+    Garden T = available   ; F = Not Available
+    Allergy T = Have       ; F = Dont Have
+    Lifespan T = Young     ; F = Old
+    Gender T = Male        ; F = Female
+    Teachable T = Yes      ; F = No
+    Containment T = Needed ; F = Not needed
+    Livestock T = Yes      ; F = No-->
     <Fact id="Fish">
         <Description value="Charles The Fish"/>
         <Evals>
@@ -24,6 +25,7 @@
             <Eval id="Lifespan">true</Eval>
             <Eval id="Gender">true</Eval>
             <Eval id="Teachable">false</Eval>
+            <Eval id="Containment">true</Eval>
             <Eval id="Livestock">false</Eval>
         </Evals>
     </Fact>
@@ -42,6 +44,7 @@
             <Eval id="Lifespan">true</Eval>
             <Eval id="Gender">false</Eval>
             <Eval id="Teachable">true</Eval>
+            <Eval id="Containment">false</Eval>
             <Eval id="Livestock">false</Eval>>
         </Evals>
     </Fact>
@@ -59,6 +62,7 @@
             <Eval id="Lifespan">true</Eval>
             <Eval id="Gender">true</Eval>
             <Eval id="Teachable">true</Eval>
+            <Eval id="Containment">true</Eval>
             <Eval id="Livestock">false</Eval>
         </Evals>
     </Fact>
@@ -76,6 +80,7 @@
             <Eval id="Lifespan">false</Eval>
             <Eval id="Gender">true</Eval>
             <Eval id="Teachable">false</Eval>
+            <Eval id="Containment">true</Eval>
             <Eval id="Livestock">false</Eval>
         </Evals>
     </Fact>
@@ -93,6 +98,7 @@
             <Eval id="Lifespan">true</Eval>
             <Eval id="Gender">false</Eval>
             <Eval id="Teachable">false</Eval>
+            <Eval id="Containment">false</Eval>
             <Eval id="Livestock">false</Eval>
         </Evals>
     </Fact>
@@ -110,6 +116,7 @@
             <Eval id="Lifespan">true</Eval>
             <Eval id="Gender">true</Eval>
             <Eval id="Teachable">true</Eval>
+            <Eval id="Containment">true</Eval>
             <Eval id="Livestock">false</Eval>
         </Evals>
     </Fact>
@@ -127,6 +134,7 @@
             <Eval id="Lifespan">false</Eval>
             <Eval id="Gender">false</Eval>
             <Eval id="Teachable">false</Eval>
+            <Eval id="Containment">false</Eval>
             <Eval id="Livestock">true</Eval>
         </Evals>
     </Fact>
@@ -144,6 +152,7 @@
             <Eval id="Lifespan">true</Eval>
             <Eval id="Gender">true</Eval>
             <Eval id="Teachable">false</Eval>
+            <Eval id="Containment">false</Eval>
             <Eval id="Livestock">true</Eval>
         </Evals>
     </Fact>
@@ -161,6 +170,7 @@
             <Eval id="Lifespan">false</Eval>
             <Eval id="Gender">false</Eval>
             <Eval id="Teachable">true</Eval>
+            <Eval id="Containment">false</Eval>
             <Eval id="Livestock">false</Eval>
         </Evals>
     </Fact>
@@ -178,6 +188,7 @@
             <Eval id="Lifespan">true</Eval>
             <Eval id="Gender">true</Eval>
             <Eval id="Teachable">true</Eval>
+            <Eval id="Containment">true</Eval>
             <Eval id="Livestock">true</Eval>
         </Evals>
     </Fact>
@@ -195,6 +206,7 @@
             <Eval id="Lifespan">true</Eval>
             <Eval id="Gender">true</Eval>
             <Eval id="Teachable">false</Eval>
+            <Eval id="Containment">true</Eval>
             <Eval id="Livestock">false</Eval>
         </Evals>
     </Fact>
@@ -212,6 +224,7 @@
             <Eval id="Lifespan">falstrue</Eval>
             <Eval id="Gender">false</Eval>
             <Eval id="Teachable">true</Eval>
+            <Eval id="Containment">false</Eval>
             <Eval id="Livestock">false</Eval>
         </Evals>
     </Fact>
@@ -229,6 +242,7 @@
             <Eval id="Lifespan">true</Eval>
             <Eval id="Gender">true</Eval>
             <Eval id="Teachable">false</Eval>
+            <Eval id="Containment">false</Eval>
             <Eval id="Livestock">false</Eval>
         </Evals>
     </Fact>
@@ -246,6 +260,7 @@
             <Eval id="Lifespan">false</Eval>
             <Eval id="Gender">false</Eval>
             <Eval id="Teachable">false</Eval>
+            <Eval id="Containment">true</Eval>
             <Eval id="Livestock">false</Eval>
         </Evals>
     </Fact>

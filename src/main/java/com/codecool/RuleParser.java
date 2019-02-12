@@ -8,23 +8,20 @@ import org.w3c.dom.Document;
 import org.w3c.dom.NodeList;
 import org.w3c.dom.Node;
 import org.w3c.dom.Element;
+import org.xml.sax.SAXException;
 
 import javax.xml.parsers.ParserConfigurationException;
+import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.File;
 
 
 public class RuleParser extends XMLParser {
 
-/*
-    @Override
-    public Document loadXmlDocument(String xmlPath) throws ParserConfigurationException, IOException, SAXException {
-        return super.loadXmlDocument(xmlPath);
-    }
-*/
+    public RuleRepository getRuleRepository() throws IOException, ParserConfigurationException, SAXException {
+        Document doc = loadXmlDocument("Rules.xml");
 
-    public RuleRepository getRuleRepository() throws ParserConfigurationException, IOException, SAXException {
-        Document doc = loadXmlDocument("src/main/java/com/codecool/Rules.xml");
+
         try {
             //optional, but recommended
             //read this - http://stackoverflow.com/questions/13786607/normalization-in-dom-parsing-with-java-how-does-it-work
@@ -52,4 +49,6 @@ public class RuleParser extends XMLParser {
     }
 
 }
+
+
 
