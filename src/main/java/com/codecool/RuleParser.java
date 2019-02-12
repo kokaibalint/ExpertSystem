@@ -16,10 +16,12 @@ import java.io.File;
 
 public class RuleParser extends XMLParser {
 
+/*
     @Override
     public Document loadXmlDocument(String xmlPath) throws ParserConfigurationException, IOException, SAXException {
         return super.loadXmlDocument(xmlPath);
     }
+*/
 
 
     public RuleRepository getRuleRepository() throws ParserConfigurationException, IOException, SAXException {
