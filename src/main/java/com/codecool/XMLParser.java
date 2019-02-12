@@ -6,32 +6,21 @@ import org.xml.sax.SAXException;
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
 import javax.xml.parsers.ParserConfigurationException;
-import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStream;
 
 /*Reads the xml documents */
 public abstract class XMLParser {
 
-    public Document loadXmlDocument(String xmlPath) throws ParserConfigurationException, IOException, SAXException {
-        DocumentBuilderFactory builderFactory = DocumentBuilderFactory.newInstance();
-        DocumentBuilder builder = null;
-        try {
-            builder = builderFactory.newDocumentBuilder();
-        } catch (ParserConfigurationException e) {
-            e.printStackTrace();
-        }
+    public Document loadXmlDocument(String xmlPath) throws IOException, SAXException, ParserConfigurationException {
+        InputStream is = Main.class.getResourceAsStream("/" + xmlPath);
 
-        try {
-            Document document = builder.parse(new FileInputStream(xmlPath));
-            return document;
-        } catch (SAXException e) {
-            e.printStackTrace();
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-        return null;
+        DocumentBuilderFactory dbf = DocumentBuilderFactory.newInstance();
+        DocumentBuilder db = dbf.newDocumentBuilder();
+        Document document = db.parse(is);
 
+        return document;
     }
 }
+
 

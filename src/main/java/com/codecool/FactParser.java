@@ -16,10 +16,7 @@ import java.io.IOException;
 
 public class FactParser extends XMLParser {
 
-    @Override
-    public Document loadXmlDocument(String xmlPath) throws ParserConfigurationException, IOException, SAXException {
-        return super.loadXmlDocument(xmlPath);
-    }
+
 
 
     public FactRepository getFactRepository() throws ParserConfigurationException, IOException, SAXException {
@@ -61,4 +58,3 @@ public class FactParser extends XMLParser {
     }
 
 }
-
