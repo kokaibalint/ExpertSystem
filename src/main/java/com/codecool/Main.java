@@ -12,11 +12,14 @@ public class Main {
     }
 
     public static void main(String[] args)  throws ParserConfigurationException, IOException, SAXException {
-        RuleParser parser = new RuleParser();
-        parser.getRuleRepository();
-        System.out.println("\n\n");
-        FactParser otherparser = new FactParser();
-        otherparser.getFactRepository();
+        Main main = new Main();
+        System.out.println(main.getWelcomeString());
+
+        RuleParser rParser = new RuleParser();
+        rParser.getRuleRepository();
+
+        //FactParser fParser = new FactParser();
+        //fParser.getFactRepository();
 
     }
 }

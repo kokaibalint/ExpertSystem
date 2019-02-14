@@ -16,10 +16,10 @@
         <Question>"Are you willing to spend a lot of money?"</Question>
         <Answer>
             <Selection value="true">
-                <SingleValue value="expensive"/>
+                <SingleValue value="yes"/>
             </Selection>
             <Selection value="false">
-                <SingleValue value="cheap"/>
+                <SingleValue value="no"/>
             </Selection>
         </Answer>
     </Rule>
