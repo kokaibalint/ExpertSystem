@@ -1,54 +1,65 @@
 package com.codecool;
 
-import org.xml.sax.SAXException;
-
+import java.io.File;
 import javax.xml.parsers.DocumentBuilderFactory;
 import javax.xml.parsers.DocumentBuilder;
 import org.w3c.dom.Document;
 import org.w3c.dom.NodeList;
 import org.w3c.dom.Node;
 import org.w3c.dom.Element;
-import org.xml.sax.SAXException;
 
-import javax.xml.parsers.ParserConfigurationException;
-import java.io.FileNotFoundException;
-import java.io.IOException;
-import java.io.File;
+public class RuleParser {
 
-
-public class RuleParser extends XMLParser {
-
-    public RuleRepository getRuleRepository() throws IOException, ParserConfigurationException, SAXException {
-        Document doc = loadXmlDocument("Rules.xml");
-
-
+    public void getRuleRepository() {
         try {
-            //optional, but recommended
-            //read this - http://stackoverflow.com/questions/13786607/normalization-in-dom-parsing-with-java-how-does-it-work
-            //doc.getDocumentElement().normalize();
+            File inputFile = new File("Rules.xml");
+            DocumentBuilderFactory dbFactory = DocumentBuilderFactory.newInstance();
+            DocumentBuilder dBuilder = dbFactory.newDocumentBuilder();
+            Document doc = dBuilder.parse(inputFile);
 
-     //       System.out.println("Root element: " + doc.getDocumentElement().getNodeName());
+            doc.getDocumentElement().normalize();
+
+            System.out.println("Root element: " + doc.getDocumentElement().getNodeName());
+
             NodeList nList = doc.getElementsByTagName("Rule");
-     //       System.out.println("----------------------------");
+            System.out.println("----------------------------");
+
             for (int temp = 0; temp < nList.getLength(); temp++) {
                 Node nNode = nList.item(temp);
-     //           System.out.println("\nCurrent Element: " + nNode.getNodeName());
+
                 if (nNode.getNodeType() == Node.ELEMENT_NODE) {
                     Element eElement = (Element) nNode;
-                    System.out.println("\nRule id: " + eElement.getAttribute("id"));
-                    System.out.println("Question: " + eElement.getElementsByTagName("Question").item(0).getTextContent());
-                    System.out.println("If " + eElement.getAttribute("value=\"true\""));
+                    System.out.println(temp+1 + ". Question id: "
+                            + eElement
+                            .getAttribute("id"));
+                    System.out.println("Question: "
+                            + eElement
+                            .getElementsByTagName("Question")
+                            .item(0)
+                            .getTextContent());
 
+                    for (int i = 0; i < eElement.getElementsByTagName("SingleValue").getLength(); i++) {
+                        System.out.println("   Value: "
+                                + eElement
+                                .getElementsByTagName("SingleValue")
+                                .item(i)
+                                .getAttributes()
+                                .item(0)
+                                .getTextContent());
+                        System.out.println("   Meaning: "
+                                + Boolean.valueOf(
+                                eElement
+                                        .getElementsByTagName("SingleValue")
+                                        .item(i)
+                                        .getParentNode() // The parent of this tag!!!
+                                        .getAttributes()
+                                        .item(0)
+                                        .getTextContent()));
+                    }
                 }
             }
         } catch (Exception e) {
             e.printStackTrace();
         }
-
-        return null;
     }
-
 }
-
-
-
