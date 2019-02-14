@@ -1,15 +1,6 @@
 package com.codecool;
 
-import org.xml.sax.SAXException;
-
-import javax.xml.parsers.ParserConfigurationException;
-import java.io.IOException;
-
 public class Main {
-
-    public String getWelcomeString() {
-        return "Hi!";
-    }
 
     public static void main(String[] args) {
         RuleParser ruleParser = new RuleParser();
