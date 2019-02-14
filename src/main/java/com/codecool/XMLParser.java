@@ -13,18 +13,20 @@ import java.io.InputStream;
 /*Reads the xml documents */
 public abstract class XMLParser {
 
-    public void loadXMLDocument(String xmlPath) {
+    public Document loadXMLDocument(String xmlPath) {
 
-//        try {
-//            File inputFile = new File("Facts.xml");
-//            DocumentBuilderFactory dbFactory = DocumentBuilderFactory.newInstance();
-//            DocumentBuilder dBuilder = dbFactory.newDocumentBuilder();
-//            Document doc = dBuilder.parse(inputFile); // a doc-ban lesz a teljes xml.
-//
-//            doc.getDocumentElement().normalize(); // a tagok közötti (>...<) text-típusú whitespaceket távol
-//        } catch (ParserConfigurationException | SAXException | IOException e) {
-//            e.printStackTrace();
-//        }
+        try {
+            File inputFile = new File(xmlPath);
+            DocumentBuilderFactory dbFactory = DocumentBuilderFactory.newInstance();
+            DocumentBuilder dBuilder = dbFactory.newDocumentBuilder();
+            Document doc = dBuilder.parse(inputFile); // a doc-ban lesz a teljes xml.
+
+            doc.getDocumentElement().normalize(); // a tagok közötti (>...<) text-típusú whitespaceket távolítja el.
+            return doc;
+        } catch (ParserConfigurationException | SAXException | IOException e) {
+            e.printStackTrace();
+        }
+        return null;
     }
 
 }

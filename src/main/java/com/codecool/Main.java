@@ -11,12 +11,14 @@ public class Main {
         return "Hi!";
     }
 
-    public static void main(String[] args)  throws ParserConfigurationException, IOException, SAXException {
-        RuleParser parser = new RuleParser();
-        parser.getRuleRepository();
-        System.out.println("\n\n");
-        FactParser otherparser = new FactParser();
-        otherparser.getFactRepository();
+    public static void main(String[] args) {
+        RuleParser ruleParser = new RuleParser();
+        ruleParser.getRuleRepository();
+
+        System.out.println("\n");
+
+        FactParser factParser = new FactParser();
+        factParser.getFactRepository();
 
     }
 }

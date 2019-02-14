@@ -8,28 +8,23 @@ import org.w3c.dom.NodeList;
 import org.w3c.dom.Node;
 import org.w3c.dom.Element;
 
-public class RuleParser {
+public class RuleParser extends XMLParser {
 
     public void getRuleRepository() {
         try {
-            File inputFile = new File("Rules.xml");
-            DocumentBuilderFactory dbFactory = DocumentBuilderFactory.newInstance();
-            DocumentBuilder dBuilder = dbFactory.newDocumentBuilder();
-            Document doc = dBuilder.parse(inputFile);
+            Document ruleDoc = loadXMLDocument("data/Rules.xml");
 
-            doc.getDocumentElement().normalize();
+            System.out.println("Root element: " + ruleDoc.getDocumentElement().getNodeName());
 
-            System.out.println("Root element: " + doc.getDocumentElement().getNodeName());
+            NodeList ruleNodes = ruleDoc.getElementsByTagName("Rule");
+            System.out.print("----------------------------");
 
-            NodeList nList = doc.getElementsByTagName("Rule");
-            System.out.println("----------------------------");
-
-            for (int temp = 0; temp < nList.getLength(); temp++) {
-                Node nNode = nList.item(temp);
+            for (int temp = 0; temp < ruleNodes.getLength(); temp++) {
+                Node nNode = ruleNodes.item(temp);
 
                 if (nNode.getNodeType() == Node.ELEMENT_NODE) {
                     Element eElement = (Element) nNode;
-                    System.out.println(temp+1 + ". Question id: "
+                    System.out.println("\n" + (temp + 1) + ". Question id: "
                             + eElement
                             .getAttribute("id"));
                     System.out.println("Question: "
