@@ -3,6 +3,7 @@ package com.codecool;
 import java.io.File;
 import javax.xml.parsers.DocumentBuilderFactory;
 import javax.xml.parsers.DocumentBuilder;
+
 import org.w3c.dom.Document;
 import org.w3c.dom.NodeList;
 import org.w3c.dom.Node;
@@ -29,7 +30,7 @@ public class RuleParser {
 
                 if (nNode.getNodeType() == Node.ELEMENT_NODE) {
                     Element eElement = (Element) nNode;
-                    System.out.println(temp+1 + ". Question id: "
+                    System.out.println(temp + 1 + ". Question id: "
                             + eElement
                             .getAttribute("id"));
                     System.out.println("Question: "
@@ -37,6 +38,7 @@ public class RuleParser {
                             .getElementsByTagName("Question")
                             .item(0)
                             .getTextContent());
+
 
                     for (int i = 0; i < eElement.getElementsByTagName("SingleValue").getLength(); i++) {
                         System.out.println("   Value: "

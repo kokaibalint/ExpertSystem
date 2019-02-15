@@ -11,7 +11,7 @@ import java.io.File;
 
 public class FactParser extends XMLParser {
 
-    public void getFactRepository() {
+    public void FactParser() {
 
         try {
             File inputFile = new File("Facts.xml");

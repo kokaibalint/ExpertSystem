@@ -7,16 +7,12 @@ import java.io.IOException;
 
 public class Main {
 
-    public String getWelcomeString() {
-        return "Hi!";
-    }
-
-    public static void main(String[] args)  throws ParserConfigurationException, IOException, SAXException {
+    public static void main(String[] args) {
         RuleParser parser = new RuleParser();
         parser.getRuleRepository();
-        System.out.println("\n\n");
+        System.out.println("\n");
         FactParser otherparser = new FactParser();
-        otherparser.getFactRepository();
+        otherparser.FactParser();
 
     }
 }
